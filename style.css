@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #171f24;
+}
+
+
+
+.card {
+  width: 41vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: -2px -2px 8px rebeccapurple;
+  border: 1px solid rebeccapurple;
+}
+
+.main-card {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: darkmagenta;
+  border-radius: 0px 12px 12px 0px;
+}
+
+
+.main-card h2 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.3em;
+  text-shadow: 2px 2px 12px blue;
+}
+
+.main-card p {
+  font-size: 1.7em;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.main-card span{
+  font-size: 1.4em;
+  color:white
+}
+
+.main-card button {
+  width: 70%;
+  padding: 12px 12px;
+  color: white;
+  background-color: #171E24;
+  border: 1px solid white;
+}
+
+.img-card {
+  width: 50%;
+  height: 100%;
+  background-image: url(./Assets/Images/Coctel.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 12px 0px 0px 12px;
+}
+
